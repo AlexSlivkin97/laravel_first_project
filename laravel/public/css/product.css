@@ -1,0 +1,47 @@
+.product-card{
+    height: 690px;
+    border: 1px solid gray;
+    border-radius: 0px 0px  10px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.product-card h2{
+    padding-left: 5px;
+}
+.media-left{
+    width: 40px;
+    height: 500px;
+    background-color: orange;
+}
+.media{
+    background-color: red;
+    width: 518px;
+    height: 500px;
+}
+.card-buy{
+    width: 470px;
+    height: calc(10%);
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card-buy button{
+    height: 40px;
+}
+button, .price{
+    margin: auto;
+}
+.media-left, .card-buy, .media{
+    margin-top: 20px;
+}
+.characteristic{
+    width: 100%;
+    height: calc(100%-20px);
+    border: 1px solid gray;
+    border-radius: 0px 0px  10px 10px;
+}
+.characteristic h2{
+    padding-top: 10px;
+    padding-left: 10px;
+}
